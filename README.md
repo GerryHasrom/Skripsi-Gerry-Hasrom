@@ -23,11 +23,11 @@ Seluruh dataset yang digunakan dalam penelitian ini telah dipublikasikan secara 
 | Objek Referensi | Skema Data *(Train : Test : Validate)* | Tautan Dataset (Kaggle) |
 | :--- | :---: | :--- |
 | 👤 **Manusia** | 60 : 30 : 10 | [🔗 Akses Dataset Manusia 60:30:10](https://www.kaggle.com/datasets/gerryhasrom/dataset-manusia-terendam-air-banjir-skema-603010) |
-| | 70 : 20 : 10 | [🔗 Akses Dataset Manusia 70:20:10](URL_MANUSIA_702010) |
-| | 80 : 10 : 10 | [🔗 Akses Dataset Manusia 80:10:10](URL_MANUSIA_801010) |
-| 🚗 **Kendaraan** | 60 : 30 : 10 | [🔗 Akses Dataset Kendaraan 60:30:10](URL_KENDARAAN_603010) |
-| | 70 : 20 : 10 | [🔗 Akses Dataset Kendaraan 70:20:10](URL_KENDARAAN_702010) |
-| | 80 : 10 : 10 | [🔗 Akses Dataset Kendaraan 80:10:10](URL_KENDARAAN_801010) |
+| | 70 : 20 : 10 | [🔗 Akses Dataset Manusia 70:20:10](https://www.kaggle.com/datasets/gerryhasrom/dataset-manusia-terendam-air-banjir-skema-702010) |
+| | 80 : 10 : 10 | [🔗 Akses Dataset Manusia 80:10:10](https://www.kaggle.com/datasets/gerryhasrom/dataset-manusia-terendam-air-banjir-skema-801010) |
+| 🚗 **Kendaraan** | 60 : 30 : 10 | [🔗 Akses Dataset Kendaraan 60:30:10](https://www.kaggle.com/datasets/gerryhasrom/dataset-kendaraan-terendam-air-skema-603010) |
+| | 70 : 20 : 10 | [🔗 Akses Dataset Kendaraan 70:20:10](https://www.kaggle.com/datasets/gerryhasrom/dataset-kendaraan-terendam-air-skema-702010) |
+| | 80 : 10 : 10 | [🔗 Akses Dataset Kendaraan 80:10:10](https://www.kaggle.com/datasets/gerryhasrom/dataset-kendaraan-terendam-air-skema-801010) |
 
 ## 📸 Sampel Citra Uji (Case Images)
 
