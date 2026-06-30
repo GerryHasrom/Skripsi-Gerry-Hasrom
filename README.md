@@ -16,6 +16,19 @@ Penelitian ini menggunakan tiga arsitektur *backbone* dari [Keras Applications](
 > 1. Seluruh model dilakukan *fine-tuning* dengan strategi **Early Stopping** (`patience=30`) dan **Model Checkpoint** untuk memastikan bobot terbaik tersimpan sebelum *overfitting* merusak generalisasi.
 > 2. Sebagai contoh, jika proses pelatihan berjalan hingga 30 *epoch* namun performa terbaik dicapai pada *epoch* ke-8, maka sistem akan secara otomatis menyimpan dan menggunakan bobot dari *epoch* ke-8 sebagai model akhir.
 
+## 📂 Dataset Penelitian
+
+Seluruh dataset yang digunakan dalam penelitian ini telah dipublikasikan secara terbuka di Kaggle untuk mendukung *reproducibility* dan pengembangan lebih lanjut oleh komunitas. Dataset dikategorikan berdasarkan objek referensi dan skema pembagian data (*splitting*).
+
+| Objek Referensi | Skema Data *(Train : Test : Validate)* | Tautan Dataset (Kaggle) |
+| :--- | :---: | :--- |
+| 👤 **Manusia** | 60 : 30 : 10 | [🔗 Akses Dataset Manusia 60:30:10](URL_MANUSIA_603010) |
+| | 70 : 20 : 10 | [🔗 Akses Dataset Manusia 70:20:10](URL_MANUSIA_702010) |
+| | 80 : 10 : 10 | [🔗 Akses Dataset Manusia 80:10:10](URL_MANUSIA_801010) |
+| 🚗 **Kendaraan** | 60 : 30 : 10 | [🔗 Akses Dataset Kendaraan 60:30:10](URL_KENDARAAN_603010) |
+| | 70 : 20 : 10 | [🔗 Akses Dataset Kendaraan 70:20:10](URL_KENDARAAN_702010) |
+| | 80 : 10 : 10 | [🔗 Akses Dataset Kendaraan 80:10:10](URL_KENDARAAN_801010) |
+
 ## 📸 Sampel Citra Uji (Case Images)
 
 Berikut adalah contoh citra uji yang digunakan untuk mengevaluasi kemampuan generalisasi model dalam mengklasifikasikan level kedalaman banjir:
