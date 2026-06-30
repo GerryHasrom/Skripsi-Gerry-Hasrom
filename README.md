@@ -1,13 +1,5 @@
-# Skripsi-Gerry-Hasrom
-
 # 🌊 Klasifikasi Level Air Banjir Berbasis Citra Visual Menggunakan CNN
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://www.tensorflow.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red)](https://streamlit.io/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
-> **Skripsi S1 Informatika - Universitas Mulawarman (2026)**  
 > Penelitian komparatif performa arsitektur Deep Learning untuk estimasi ketinggian banjir berbasis objek referensi visual tanpa sensor fisik.
 
 ## 📖 Ringkasan Proyek
