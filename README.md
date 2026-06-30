@@ -13,10 +13,8 @@ Penelitian ini menggunakan tiga arsitektur *backbone* dari [Keras Applications](
 | **EfficientNetV2S** | *Compound scaling*, *fused-MBConv*, efisiensi komputasi tinggi | ~21M | 224×224 |
 
 > **📌 Catatan Mekanisme Pelatihan:**
-> Seluruh model dilakukan *fine-tuning* dengan strategi **Early Stopping** (`patience=30`) dan **Model Checkpoint** untuk memastikan bobot terbaik tersimpan sebelum *overfitting* merusak generalisasi. 
-> 
-> Dengan kata lain, jika proses pelatihan berjalan hingga 30 *epoch* namun performa terbaik dicapai pada *epoch* ke-8, maka sistem akan secara otomatis menyimpan dan menggunakan bobot dari *epoch* ke-8 sebagai model akhir.
-
+> 1. Seluruh model dilakukan *fine-tuning* dengan strategi **Early Stopping** (`patience=30`) dan **Model Checkpoint** untuk memastikan bobot terbaik tersimpan sebelum *overfitting* merusak generalisasi.
+> 2. Sebagai contoh, jika proses pelatihan berjalan hingga 30 *epoch* namun performa terbaik dicapai pada *epoch* ke-8, maka sistem akan secara otomatis menyimpan dan menggunakan bobot dari *epoch* ke-8 sebagai model akhir.
 
 
 
